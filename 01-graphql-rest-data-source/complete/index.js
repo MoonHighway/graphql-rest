@@ -50,8 +50,6 @@ const typeDefs = gql`
     findTrailByName(name: String!): Trail!
     trailCount(status: TrailStatus!): Int!
     allLifts(status: LiftStatus): [Lift!]!
-    findLiftById(id: ID!): Lift!
-    liftCount(status: LiftStatus): Int!
   }
 `;
 const resolvers = {

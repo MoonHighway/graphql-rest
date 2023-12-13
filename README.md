@@ -18,6 +18,7 @@
 ## Sample REST APIs
 
 - [Snowtooth API](https://snowtooth-api-rest.fly.dev): https://snowtooth-api-rest.fly.dev
+- Countries API: [Docs - All](https://restcountries.com/#endpoints-all) | [Docs - By Name](https://restcountries.com/#endpoints-name)
 
 ## Resources
 
