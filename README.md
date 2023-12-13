@@ -18,3 +18,10 @@
 ## Sample REST APIs
 
 - [Snowtooth API](https://snowtooth-api-rest.fly.dev): https://snowtooth-api-rest.fly.dev
+
+## Resources
+
+- [Apollo RESTDataSource Docs](https://www.apollographql.com/docs/apollo-server/data/fetching-rest)
+- [Apollo RESTDataSource GitHub](https://github.com/apollographql/datasource-rest)
+- [Using with DataLoader](https://www.apollographql.com/docs/apollo-server/data/fetching-rest/#using-with-dataloader)
+- [Apollo Link REST](https://www.apollographql.com/docs/react/api/link/apollo-link-rest/)
