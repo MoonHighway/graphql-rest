@@ -1,7 +1,7 @@
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
 import { RESTDataSource } from "@apollo/datasource-rest";
-import { gql } from "graphql-tag";
+import gql from "graphql-tag";
 
 const typeDefs = gql`
   type Lift {

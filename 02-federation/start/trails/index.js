@@ -1,6 +1,6 @@
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
-import { gql } from "graphql-tag";
+import gql from "graphql-tag";
 
 import trails from "./trail-data.json" assert { type: "json" };
 
