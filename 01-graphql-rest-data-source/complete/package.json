@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon . -e graphql,js"
   },
@@ -10,6 +11,7 @@
   "author": "Moon Highway",
   "license": "ISC",
   "dependencies": {
+    "@apollo/datasource-rest": "^6.2.2",
     "@apollo/server": "^4.0.0",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.12.6",
