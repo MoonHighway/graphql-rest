@@ -1,10 +1,17 @@
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
 import { gql } from "graphql-tag";
+import { buildSubgraphSchema } from "@apollo/subgraph";
 
 import trails from "./trail-data.json" assert { type: "json" };
 
 const typeDefs = gql`
+  extend schema
+    @link(
+      url: "https://specs.apollo.dev/federation/v2.0"
+      import: ["@key", "@shareable"]
+    )
+
   type Trail {
     id: ID!
     name: String!
@@ -55,7 +62,9 @@ const resolvers = {
 };
 
 async function startApolloServer() {
-  const server = new ApolloServer({ typeDefs, resolvers });
+  const server = new ApolloServer({
+    schema: buildSubgraphSchema({ typeDefs, resolvers })
+  });
   const { url } = await startStandaloneServer(server, {
     listen: { port: 4002 }
   });

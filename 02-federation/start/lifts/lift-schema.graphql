@@ -1,0 +1,18 @@
+type Lift {
+  id: ID!
+  name: String!
+  status: LiftStatus!
+  capacity: Int!
+  night: Boolean!
+  elevationGain: Int!
+}
+
+enum LiftStatus {
+  OPEN
+  HOLD
+  CLOSED
+}
+
+type Query {
+  allLifts(status: LiftStatus): [Lift!]!
+}
