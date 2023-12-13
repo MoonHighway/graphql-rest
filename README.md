@@ -14,6 +14,7 @@
 ## Slides
 
 - [Slides](https://www.canva.com/design/DAF20huJ9KQ/ZDjNPwBxWK9CuEDytLNMPA/view?utm_content=DAF20huJ9KQ&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+- [Federation Slides](https://slides.com/moonhighway/federation)
 
 ## Sample REST APIs
 
