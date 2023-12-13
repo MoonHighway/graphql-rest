@@ -17,4 +17,4 @@
 
 ## Sample REST APIs
 
-- [Snowtooth API - https://snowtooth-api-rest.fly.dev](https://snowtooth-api-rest.fly.dev)
+- [Snowtooth API](https://snowtooth-api-rest.fly.dev): https://snowtooth-api-rest.fly.dev
